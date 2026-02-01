@@ -4,3 +4,7 @@ output "vpcid" {
 output "subnetid" {
  value = aws_subnet.main.id
 }
+output "awskeyname" {
+ value = aws_key_pair.altafkey.key_name
+}
+
