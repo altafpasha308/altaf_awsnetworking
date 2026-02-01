@@ -8,6 +8,6 @@ output "awskeyname" {
  value = aws_key_pair.altafkey.key_name
 }
 output "securitygroup" {
- value = aws_security_group.sg-webserver.name
+ value = aws_security_group.sg-webserver.id
 }
 
